@@ -9,7 +9,7 @@ import {
   CLEAR_CART,
   TOGGLE_CART,
 } from '../utils/actions';
-import { reducer } from '../utils/reducers';
+import reducer from '../utils/reducers';
 
 const initialState = {
   products: [],
